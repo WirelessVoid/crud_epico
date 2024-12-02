@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "389579624032",
+    "project_id": "crud-epico",
+    "storage_bucket": "crud-epico.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389579624032:android:9bdbd221cebfac6d273d05",
+        "android_client_info": {
+          "package_name": "com.ceduc.crud_e"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ9aVuzQ6rQwN41jLQceVv3fChsRWfA14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389579624032:android:397fe6cb1b7a8588273d05",
+        "android_client_info": {
+          "package_name": "com.ceduc.crud_epico"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ9aVuzQ6rQwN41jLQceVv3fChsRWfA14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
