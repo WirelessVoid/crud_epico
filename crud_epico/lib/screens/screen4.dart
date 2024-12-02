@@ -14,7 +14,7 @@ class screen4 extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Image.asset('assets/fondo.jpg'),
+            child: Image.asset('assets/fondo.jpg', fit: BoxFit.cover),
           ),
           SingleChildScrollView(
             child: Padding(

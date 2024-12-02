@@ -15,7 +15,7 @@ class screen3 extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Image.asset('assets/fondo.jpg'),
+            child: Image.asset('assets/fondo.jpg', fit: BoxFit.cover),
           ),
           SingleChildScrollView(
             child: Column(
@@ -25,10 +25,7 @@ class screen3 extends StatelessWidget {
                   height: 300,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(
-                        'https://i.pinimg.com/736x/13/b1/79/13b1795b841b805bf146a9a6890d9191.jpg',
-                      ),
-                      fit: BoxFit.cover,
+                      image: AssetImage('assets/sistemaSolar.jpg')
                     ),
                   ),
                 ),
