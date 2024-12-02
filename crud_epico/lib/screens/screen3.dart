@@ -15,10 +15,7 @@ class screen3 extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Image.network(
-              'https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV8zN19waG90b19vZl9nYWxheHlfd2FsbHBhcGVyX2Flc3RoZXRpY19taW5pbWFsX2Y1NWFjNGU1LTkxOWQtNGEwZS1hNzA2LTlhMGExMTI1YzAxZS5qcGc.jpg',
-              fit: BoxFit.cover,
-            ),
+            child: Image.asset('assets/fondo.jpg'),
           ),
           SingleChildScrollView(
             child: Column(
